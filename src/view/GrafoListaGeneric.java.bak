@@ -1,0 +1,12 @@
+package view;
+
+import controller.GrafoListaController;
+
+public class GrafoListaGeneric{
+	try{
+		GrafoListaController obj = new GrafoListaController();
+		System.out.println(obj.teste());
+	}catch (Exception e){
+		e.printStackTrace();
+	}
+}
